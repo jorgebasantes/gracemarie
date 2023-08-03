@@ -1,0 +1,66 @@
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 1020px;
+    width: 480px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.menu{
+    height: 40px;
+    float: right;
+    background: #ccc;
+    padding: 0.5em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+.menu img{
+    height: 140px;    
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(222, 135, 161);
+}
+
+p{
+    text-align: center;
+}
+p span{
+    color: blueviolet;
+}
+.button-order{
+    text-align: center;
+}
+.button-service{
+    text-align: center;
+}
+button{
+    padding: 40px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    background: transparent;
+    border: 2px solid black;
+    font-size: 30px;
+    cursor: pointer;
+}
