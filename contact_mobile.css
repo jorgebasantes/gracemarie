@@ -1,0 +1,65 @@
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 1020px;
+    width: 480px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.menu{
+    height: 30px;
+    float: right;
+}
+.menu img{
+    height: 120px;
+}
+main{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    min-height: 100px;
+}
+input{
+    display: flex;
+}
+form{
+    padding-left: 110px;
+    padding-bottom: 20px;
+}
+textarea{
+    display: flex;
+}
+#submit{
+    border: 2px solid black;
+    border-radius: 25px;
+    background: transparent;
+    margin: 20px 5px;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+h2{
+    text-align: center;
+    padding-right: 30px;
+    font-size: 40px;
+    color:black;
+}
+p{
+    text-align: center;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #413939;
+}
